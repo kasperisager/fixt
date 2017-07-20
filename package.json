@@ -1,0 +1,9 @@
+{
+  "name": "fixt",
+  "version": "1.0.0",
+  "description": "DOM test fixtures made as easy as they ought to be",
+  "main": "dist/index.js",
+  "repository": "kasperisager/fixt",
+  "author": "Kasper Isager <kasperisager@gmail.com>",
+  "license": "MIT"
+}
