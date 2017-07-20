@@ -26,9 +26,9 @@ describe('text()', () => {
       <p>Hello world!</p>
       `,
       p => assert(text(p) === 'Hello world!')
-    )
-  })
-})
+    );
+  });
+});
 ```
 
 ## License
