@@ -3,30 +3,15 @@
   "version": "1.1.0",
   "description": "DOM test fixtures made as easy as they ought to be",
   "main": "dist/index.js",
+  "types": "src/index.ts",
   "repository": "kasperisager/fixt",
   "author": "Kasper Isager <kasperisager@gmail.com>",
   "license": "MIT",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist", "src"],
   "scripts": {
-    "test": "xo",
-    "prepare": "babel lib -d dist"
-  },
-  "babel": {
-    "presets": [
-      "env"
-    ]
-  },
-  "xo": {
-    "space": true,
-    "envs": [
-      "browser"
-    ]
+    "prepare": "tsc --outDir dist"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-preset-env": "^1.6.0",
-    "xo": "^0.18.2"
+    "typescript": "^2.7.2"
   }
 }
