@@ -1,13 +1,16 @@
 {
   "name": "fixt",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "DOM test fixtures made as easy as they ought to be",
   "main": "dist/index.js",
   "types": "src/index.ts",
   "repository": "kasperisager/fixt",
   "author": "Kasper Isager <kasperisager@gmail.com>",
   "license": "MIT",
-  "files": ["dist", "src"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "prepare": "tsc --outDir dist"
   },
