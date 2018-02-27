@@ -3,16 +3,13 @@
   "version": "1.2.0",
   "description": "DOM test fixtures made as easy as they ought to be",
   "main": "dist/index.js",
-  "types": "src/index.ts",
+  "types": "dist/index.d.ts",
   "repository": "kasperisager/fixt",
   "author": "Kasper Isager <kasperisager@gmail.com>",
   "license": "MIT",
-  "files": [
-    "dist",
-    "src"
-  ],
+  "files": ["dist"],
   "scripts": {
-    "prepare": "tsc --outDir dist"
+    "prepare": "tsc"
   },
   "devDependencies": {
     "typescript": "^2.7.2"
